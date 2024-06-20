@@ -1,0 +1,96 @@
+.banner {
+    background-image: url("https://img.freepik.com/vector-premium/fondo-banner-medico-abstracto-diseno-plantillas-concepto-e-idea-tecnologia-sanitaria-medicina-innovacion-salud-ciencia-e-investigacion-encabezado-sitio-web-patron-medico-o-banner-web_181182-15739.jpg?w=1380");
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+  }
+  
+  h1{
+    margin: 0;
+    padding-top: 15vh;
+    font-size: 3rem;
+    color: white;
+  }
+  
+  .banner-text {
+    margin-top: 2vh;
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+  
+  .banner-button {
+    margin-top: 15vh;
+    background-color: white;
+    padding: 10px 20px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .banner-button:hover {
+    /* Efecto al pasar el ratón */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada para el efecto hover */
+    transform: translateY(-2px); /* Eleva ligeramente el botón */
+  }
+  
+  
+  .container-img{
+    background-image: url("../../assets/ovalo.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto; 
+    border-radius: 50%; 
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 50%;
+  
+  
+  }
+  
+  .chatbot-iframe {
+    position: fixed; 
+    bottom: 0;
+    right: 0;
+    width: 350px;   
+    height: 400px;  
+    border: none;
+    z-index: 1000;
+    transition: bottom 0.3s, opacity 0.3s; /* Agrega transición para opacidad */
+  }
+  
+  .chatbot-toggle {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 350px;
+    height: 50px;
+    background-color: #007bff;
+    color: white; /* Color del texto */
+    text-align: center; /* Alinea el texto horizontalmente */
+    line-height: 50px; /* Alinea el texto verticalmente */
+    cursor: pointer;
+    z-index: 10; /* Z-index más alto que el chatbot para que sea clickeable */
+    transition: height 0.3s; /* Transiciones suaves para tamaño */
+  }
+  
+  .chatbot-expanded{
+    position: fixed; 
+    bottom: 0;
+    right: 0;
+    width: 350px;   
+    height: 440px;
+  }
+  
+  
+  

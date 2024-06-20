@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+
+
+:root {
+    --primary-color: #001220;
+    --secondary-color: #e1e1ea;
+  }
+
+body{
+  font-family: 'Lato', sans-serif;
+    background-color: #eef4fd;
+}
+
+h1 {
+  text-align: center;
+  color: var(--primary-color);
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 2.5em;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+.map-container {
+  height: 500px !important;
+  width: 500px !important;
+}

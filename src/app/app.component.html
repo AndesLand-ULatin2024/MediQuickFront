@@ -1,8 +1,27 @@
-<main>
-  <header class="brand-name">
-    <img class="brand-logo" src="/assets/logo.svg" alt="logo" aria-hidden="true" />
-  </header>
-  <section class="content">
-    <app-home></app-home>
-  </section>
-</main>
+<nav class="navbar navbar-expand-lg">
+
+  <div class="brand">
+      <a class="navbar-brand" href="#">
+          <img src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/847/9004630847_745f59ba-af68-4a0d-ae4b-bfd528ba39ea.png?cb=1718873257" alt="" height="70" width="110">
+      </a>
+  </div>
+
+  <ul class="navbar-nav">
+      <li class="nav-item">
+          <a class="nav-link" href="" routerLink="/" routerLinkActive="nav-link-active" [routerLinkActiveOptions]="{exact: true}">Inicio</a>
+      </li>
+
+      <li class="nav-item">
+          <a class="nav-link" href="" routerLink="/test-drive" routerLinkActive="nav-link-active">Resumen de paciente</a>
+      </li>
+
+      <li class="nav-item">
+          <a class="nav-link" href="" routerLink="/sede" routerLinkActive="nav-link-active">Consultar sobre paciente</a>
+      </li>
+
+
+  </ul>
+
+</nav>
+
+<router-outlet></router-outlet>
